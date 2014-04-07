@@ -24,6 +24,7 @@ class AppKernel extends Apnet\FunctionalTestBundle\HttpKernel\AppKernel
       new Symfony\Bundle\TwigBundle\TwigBundle(),
       new Symfony\Bundle\MonologBundle\MonologBundle(),
 
+      new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle(),
       new Apnet\FunctionalTestBundle\ApnetFunctionalTestBundle(),
       new Knp\Bundle\MarkdownBundle\KnpMarkdownBundle(),
     );
