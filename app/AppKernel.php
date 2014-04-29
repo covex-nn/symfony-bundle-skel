@@ -53,5 +53,4 @@ class AppKernel extends Apnet\FunctionalTestBundle\HttpKernel\AppKernel
   {
     return $this->rootDir.'/logs';
   }
-
 }
