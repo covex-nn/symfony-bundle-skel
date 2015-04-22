@@ -29,10 +29,10 @@
     },
     "minimum-stability" : "beta",
     "extra" : {
+        "symfony-app-dir": "app",
+        "symfony-web-dir": "web",
+        "symfony-assets-install": "relative",
         "branch-alias": {
-            "symfony-app-dir": "app",
-            "symfony-web-dir": "web",
-            "symfony-assets-install": "relative",
             "dev-master": "1.0.x-dev"
         }
     }
