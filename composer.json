@@ -13,21 +13,26 @@
         "php" : ">=5.3.0"
     },
     "require-dev" : {
-        "symfony/symfony" : "~2.3",
+        "symfony/symfony" : "~2.6",
         "sensio/generator-bundle": "~2.3",
-        "symfony/monolog-bundle" : "~2.3",
+        "symfony/monolog-bundle" : "~2.6",
         "apnet/functional-test-bundle" : "~1.1,>=1.1.4",
         "phpunit/phpunit" : "~4.0",
-        "squizlabs/php_codesniffer" : "~1.5",
-        "apnet/coding-standard" : "~1.0",
+        "apnet/coding-standard" : "~2.0",
+        "apnet/assetic-importer-bundle": "~1.3",
+        "apnet/layout-bundle": "~3.0",
         "covex-nn/twig-callable-bridge-bundle" : "~1.0",
         "knplabs/knp-markdown-bundle" : "~1.3"
     },
     "config" : {
         "bin-dir" : "bin"
     },
+    "minimum-stability" : "beta",
     "extra" : {
         "branch-alias": {
+            "symfony-app-dir": "app",
+            "symfony-web-dir": "web",
+            "symfony-assets-install": "relative",
             "dev-master": "1.0.x-dev"
         }
     }

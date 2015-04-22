@@ -1,0 +1,14 @@
+{% extends "ApnetLayoutBundle::body.html.twig" %}
+
+{% block title %}Symfony2 Bundle{% endblock %}
+
+{% block stylesheets_core %}
+    {{ parent() }}
+    <style type="text/css">
+        @media (min-width: 979px) {
+            body { padding-top: 20px; padding-bottom: 20px; }
+        }
+    </style>
+{% endblock %}
+
+{% block body_wrapper %}<body role="document">{{ block('body') }}</body>{% endblock %}

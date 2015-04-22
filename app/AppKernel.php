@@ -29,6 +29,9 @@ class AppKernel extends Apnet\FunctionalTestBundle\HttpKernel\AppKernel
       new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle(),
       new Apnet\FunctionalTestBundle\ApnetFunctionalTestBundle(),
 
+      new Symfony\Bundle\AsseticBundle\AsseticBundle(),
+      new Apnet\AsseticImporterBundle\ApnetAsseticImporterBundle(),
+      new Apnet\LayoutBundle\ApnetLayoutBundle(),
       new Covex\TwigCallableBridgeBundle\CovexTwigCallableBridgeBundle(),
       new Knp\Bundle\MarkdownBundle\KnpMarkdownBundle(),
     );
