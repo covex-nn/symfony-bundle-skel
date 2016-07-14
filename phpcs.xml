@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ruleset name="Bundle">
+    <description>PSR-2 standard.</description>
+    <!-- Include the whole PSR2 standard -->
+    <rule ref="PSR2" />
+</ruleset>

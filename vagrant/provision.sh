@@ -11,5 +11,5 @@ fi
 cd /vagrant
 composer install
 chown -R vagrant:vagrant /home/vagrant/share/vendor
-app/console cache:warmup
-app/console assets:install web
+php bin/console cache:warmup
+php bin/console assets:install --symlink web
