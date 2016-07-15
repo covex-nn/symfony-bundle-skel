@@ -1,0 +1,10 @@
+/app export-ignore
+/bin export-ignore
+/tests export-ignore
+/vagrant export-ignore
+/web export-ignore
+/.travis.yml export-ignore
+/composer.lock export-ignore
+/phpcs.xml export-ignore
+/phpunit.xml.dist export-ignore
+/Vagrantfile export-ignore
