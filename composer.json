@@ -9,6 +9,13 @@
             "email" : "covex.mobile@gmail.com"
         }
     ],
+    "autoload" : {
+        "psr-4" : { "" : "src/" },
+        "classmap" : [ "app/AppKernel.php" ]
+    },
+    "autoload-dev" : {
+        "psr-4" : { "Tests\\" : "tests/" }
+    },
     "require" : {
         "php" : ">=5.5.9",
         "symfony/framework-bundle" : "~3.0"
